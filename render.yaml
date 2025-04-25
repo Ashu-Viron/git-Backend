@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: medi-connect-backend
-    env: node
-    rootDir: backend       # <-- point to your backend folder
-    buildCommand: cd backend && npm install
-    startCommand: cd backend && npm start
-    autoDeploy: true
